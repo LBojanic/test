@@ -45,8 +45,8 @@ export default class LoggedOut extends Component {
                 </TouchableHighlight>
 
                 <View style={styles.termsAndConditions}>
-                    <Text style={styles.termsText}> By tapping Continue, Create Account or More options,</Text>
-                    <Text style={styles.termsText}> I agree to Vozi's </Text>
+                    <Text style={styles.termsText}>By tapping Continue, Create Account or More options, </Text>
+                    <Text style={styles.termsText}>I agree to Vozi's </Text>
                     <TouchableHighlight style={styles.linkButton}>
                         <Text style={styles.termsText}>Terms of Service</Text>
                     </TouchableHighlight>
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     },
     termsText: {
         color: colors.white,
-        fontSize: 13,
+        fontSize: 12,
         fontWeight: '600',
     },
     linkButton: {
