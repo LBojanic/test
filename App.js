@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LoggedOut from './src/screens/LoggedOut'
-
-export default class App extends Component<Props> {
+import LogIn from './src/screens/LogIn'
+export default class App extends Component {
   render() {
-    return <LoggedOut />
+    return <LogIn />
   }
 }
