@@ -12,7 +12,7 @@ import colors from '../styles/colors';
 import InputField from '../components/form/InputField'
 import NextArrowButton from '../components/buttons/NextArrowButton'
 import Notification from '../components/Notification';
-
+import Loader from '../components/Loader'
 export default class LogIn extends Component {
     constructor(props) {
         super(props);
@@ -21,6 +21,7 @@ export default class LogIn extends Component {
             validEmail: false,
             emailAddress: '',
             validPassword: false,
+            loadingVisible: false,
         }
         this.handleCloseNotification = this.handleCloseNotification.bind(this);
         this.handleEmailChange = this.handleEmailChange.bind(this);
@@ -29,12 +30,16 @@ export default class LogIn extends Component {
         this.toggleNextButtonState = this.toggleNextButtonState.bind(this);
     }
     handleNextButton() {
-        if (this.state.emailAddress === 'lazar.bojanic@hotmail.rs' && this.state.validPassword) {
-            alert('success');
-            this.setState( { formValid: true });
-        } else {
-            this.setState({ formValid: false});
-        }
+        this.setState({ loadingVisible: true });
+        setTimeout(() => {
+            if (this.state.emailAddress === 'lazar.bojanic@hotmail.rs' && this.state.validPassword) {
+                this.setState( { formValid: true, loadingVisible: false }, () => {
+                    alert('success');
+                });
+            } else {
+                this.setState({ formValid: false, loadingVisible: false});
+            }
+        }, 2000);
     }
     handleCloseNotification() {
         this.setState({ formValid: true});
@@ -75,7 +80,7 @@ export default class LogIn extends Component {
     }
 
     render() {
-        const { formValid } = this.state;
+        const { formValid, loadingVisible } = this.state;
         const showNotification = formValid ? false : true;
         const background = formValid ? colors.green01 : colors.darkOrange;
         const notificationMarginTop = showNotification ? 10 : 0;
@@ -126,7 +131,10 @@ export default class LogIn extends Component {
                         />
                     </View>
                 </View>
-              
+                <Loader 
+                    modalVisible={loadingVisible}
+                    animationType="fade"
+                />
             </KeyboardAvoidingView>
         );
     }

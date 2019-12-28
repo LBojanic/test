@@ -34,6 +34,8 @@ MERGED from [:unimodules-core] C:\Users\Lazar\Desktop\CarApp\node_modules\@unimo
 MERGED from [:unimodules-image-loader-interface] C:\Users\Lazar\Desktop\CarApp\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-sensors-interface] C:\Users\Lazar\Desktop\CarApp\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\95521526fedb58bcb6de0f405ba644e0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-gif-2.0.0.aar\97c29e1e71eac0ca34372898203e46fc\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\74c9f2b8a394b8abc4cdcafa500125c2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2a019c9e443f034673eed87fc399c254\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\80c55f589c47fb649e65980c52b6ae05\AndroidManifest.xml:17:1-24:12
@@ -45,8 +47,9 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Lazar\.gradle\ca
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\0ec2baf6126ce6e5898b377523daca7d\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ab667634b690b92209b977dd72f518ec\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\19eb2fdcbb07b6cb83faab1d1c7e7c62\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c27ad5ceedc80b6b69da04a4cd94eb1f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-base-2.0.0.aar\2c8af391fee37cbcd9a97f3de3674a64\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-drawable-2.0.0.aar\3fe535f0e4a9506a2cee21b20fd1be0f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\4960ade1480cc11cbaf735e07f704c78\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\1cfba87d8f1494109248d29dedc0e7af\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\5a1a0edbc85abfc6378498c8042181ff\AndroidManifest.xml:2:1-9:12
@@ -322,6 +325,10 @@ MERGED from [:unimodules-sensors-interface] C:\Users\Lazar\Desktop\CarApp\node_m
 MERGED from [:unimodules-sensors-interface] C:\Users\Lazar\Desktop\CarApp\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\95521526fedb58bcb6de0f405ba644e0\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\95521526fedb58bcb6de0f405ba644e0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-gif-2.0.0.aar\97c29e1e71eac0ca34372898203e46fc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-gif-2.0.0.aar\97c29e1e71eac0ca34372898203e46fc\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\74c9f2b8a394b8abc4cdcafa500125c2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\74c9f2b8a394b8abc4cdcafa500125c2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2a019c9e443f034673eed87fc399c254\AndroidManifest.xml:20:5-44
@@ -344,10 +351,12 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ab667634b690b92209b977dd72f518ec\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\19eb2fdcbb07b6cb83faab1d1c7e7c62\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\19eb2fdcbb07b6cb83faab1d1c7e7c62\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\347efc64ca5956c3c75df0e6614b6bd8\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c27ad5ceedc80b6b69da04a4cd94eb1f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c27ad5ceedc80b6b69da04a4cd94eb1f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-base-2.0.0.aar\2c8af391fee37cbcd9a97f3de3674a64\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-base-2.0.0.aar\2c8af391fee37cbcd9a97f3de3674a64\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-drawable-2.0.0.aar\3fe535f0e4a9506a2cee21b20fd1be0f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\animated-drawable-2.0.0.aar\3fe535f0e4a9506a2cee21b20fd1be0f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\4960ade1480cc11cbaf735e07f704c78\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\4960ade1480cc11cbaf735e07f704c78\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\1cfba87d8f1494109248d29dedc0e7af\AndroidManifest.xml:5:5-7:41
