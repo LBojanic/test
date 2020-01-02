@@ -117,12 +117,10 @@ export default class LogIn extends Component {
                         />
                     </ScrollView> 
                     {!showNotification ?
-                    <View style={styles.nextButton}>
-                        <NextArrowButton 
-                            handleNextButton={this.handleNextButton}
-                            disabled={this.toggleNextButtonState()}
-                        />
-                    </View>
+                    <NextArrowButton 
+                        handleNextButton={this.handleNextButton}
+                        disabled={this.toggleNextButtonState()}
+                    />
                     : null}
                     <View style={[styles.notificationWrapper, {marginTop: notificationMarginTop}]}>
                         <Notification
@@ -163,11 +161,6 @@ const styles = StyleSheet.create({
         color: colors.white,
         fontWeight: '300',
         marginBottom: 40,
-    },
-    nextButton: {
-        alignItems: 'flex-end',
-        right: 20,
-        bottom: 20,
     },
     notificationWrapper: {
         position: 'absolute',
