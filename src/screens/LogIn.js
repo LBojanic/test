@@ -8,18 +8,22 @@ import {
     StyleSheet,
     KeyboardAvoidingView,
  } from 'react-native';
+ import { connect } from 'react-redux';
+ import { bindActionCreators } from 'redux';
+ import { ActionCreators } from '../redux/actions';
 import colors from '../styles/colors';
 import InputField from '../components/form/InputField'
 import NextArrowButton from '../components/buttons/NextArrowButton'
 import Notification from '../components/Notification';
 import Loader from '../components/Loader'
-export default class LogIn extends Component {
+class LogIn extends Component {
     constructor(props) {
         super(props);
         this.state = {
             formValid: true,
             validEmail: false,
             emailAddress: '',
+            password: '',
             validPassword: false,
             loadingVisible: false,
         }
@@ -32,12 +36,11 @@ export default class LogIn extends Component {
     handleNextButton() {
         this.setState({ loadingVisible: true });
         setTimeout(() => {
-            if (this.state.emailAddress === 'lazar.bojanic@hotmail.rs' && this.state.validPassword) {
-                this.setState( { formValid: true, loadingVisible: false }, () => {
-                    alert('success');
-                });
+            const { emailAddress, password } = this.state;
+            if ( this.props.logIn(emailAddress, password) ) {
+                this.setState( { formValid: true, loadingVisible: false });
             } else {
-                this.setState({ formValid: false, loadingVisible: false});
+                this.setState( { formValid: false, loadingVisible: false });
             }
         }, 2000);
     }
@@ -61,6 +64,7 @@ export default class LogIn extends Component {
     }
 
     handlePasswordChange(password) {
+        this.setState({ password });
         if (!this.state.validPassword) {
             if (password.length > 4) {
                 // Password has to be at least 4 characters long
@@ -168,3 +172,15 @@ const styles = StyleSheet.create({
         width: '100%',
     },
 });
+
+const mapStateToProps = (state) => {
+    return {
+        loggedInStatus: state.loggedInStatus,
+    }
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return bindActionCreators(ActionCreators, dispatch);
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(LogIn);
