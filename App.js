@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar, AppRegistry } from 'react-native';
 import { Provider } from 'react-redux';
-import store from './src/redux/store';
-import LoggedOut from './src/screens/LoggedOut'
-import LogIn from './src/screens/LogIn';
-import ForgotPassword from './src/screens/ForgotPassword';
-export default class App extends Component {
+import { configureStore, Root } from './src/navigators/AppNavigator';
+
+
+StatusBar.setBarStyle('light-content', true);
+console.disableYellowBox = true;
+class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <LogIn />
+      <Provider store={configureStore({})}>
+          <Root />
       </Provider>
     );
   }
 }
+
+AppRegistry.registerComponent('App', () => App);
+
+export default App; 

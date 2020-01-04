@@ -16,7 +16,17 @@ import InputField from '../components/form/InputField'
 import NextArrowButton from '../components/buttons/NextArrowButton'
 import Notification from '../components/Notification';
 import Loader from '../components/Loader'
+import { transparentHeaderStyle } from '../styles/navigation';
+
+
 class LogIn extends Component {
+
+    static navigationOptions = ({ navigation }) => ({
+        headerStyle: transparentHeaderStyle,
+        headerTransparent: true,
+        headerTintColor: colors.white,    
+    });
+
     constructor(props) {
         super(props);
         this.state = {
@@ -106,7 +116,6 @@ class LogIn extends Component {
                             customStyle={{marginBottom: 30}}
                             onChangeText={this.handleEmailChange}
                             showCheckmark={validEmail}
-                            autoFocus={true}
                         />
                         <InputField 
                             labelText = "PASSWORD"

@@ -4,6 +4,7 @@ ADDED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xm
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-safe-area-context] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -45,6 +46,7 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lazar\.gradle\cac
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\79ef6d88465919ecfcacb0b4e63358e0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\d377821d1555ffbd0a5555fac37fbf15\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\0ec2baf6126ce6e5898b377523daca7d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.1.0-alpha02.aar\afae4feeb4d0d2965ffe199892446d74\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ab667634b690b92209b977dd72f518ec\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\19eb2fdcbb07b6cb83faab1d1c7e7c62\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c27ad5ceedc80b6b69da04a4cd94eb1f\AndroidManifest.xml:2:1-9:12
@@ -58,8 +60,10 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Lazar\.gradl
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\385877118e9ff15874ff984b21dc4249\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\633c71f6195260365a11c306dcd172e7\AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\77114cc83e8d862620fcc44a09da2bb7\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\321a6b02b169658983d6d6c7d9041574\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\b56b7f1a76ec10cae471e258a8ba96f0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\b93b2d2952abbec364b2c2acfef3b4a3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\85dc0dafafde1d98327279b4f9c87b75\AndroidManifest.xml:17:1-22:12
@@ -68,14 +72,11 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Lazar\.gr
 MERGED from [androidx.media:media:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\5abd56647660ce3756867a4cf644362a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ed786e05980f5eaddd0437af4b06b0a9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\19bff01ef3e4ae61b11f12503aa8c44c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\5b046263e87adb84d19ff761676b7f76\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\cc098c8975b6207617610566f50118c3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3e6d785f76fc7e2e82c36596087bae93\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\a0879663a10016f750d728be06c723f9\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\282a89390e85640a6fc617569dc6f34b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\088d8922d74e36ef264b36f44d33d576\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c493e3f0bc27a382f930510913297049\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\24a53815b8e434ff8424695e347b9dce\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\99c7ae31a71ac3844e08417c2f102aac\AndroidManifest.xml:17:1-22:12
@@ -265,6 +266,8 @@ uses-sdk
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Lazar\Desktop\CarApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-safe-area-context] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\Lazar\Desktop\CarApp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -347,6 +350,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Lazar\.gradle\ca
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\d377821d1555ffbd0a5555fac37fbf15\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\0ec2baf6126ce6e5898b377523daca7d\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\0ec2baf6126ce6e5898b377523daca7d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.1.0-alpha02.aar\afae4feeb4d0d2965ffe199892446d74\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.1.0-alpha02.aar\afae4feeb4d0d2965ffe199892446d74\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ab667634b690b92209b977dd72f518ec\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ab667634b690b92209b977dd72f518ec\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\19eb2fdcbb07b6cb83faab1d1c7e7c62\AndroidManifest.xml:20:5-44
@@ -373,10 +378,14 @@ MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Lazar\.gradle\cache
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\633c71f6195260365a11c306dcd172e7\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\77114cc83e8d862620fcc44a09da2bb7\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\77114cc83e8d862620fcc44a09da2bb7\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\321a6b02b169658983d6d6c7d9041574\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\321a6b02b169658983d6d6c7d9041574\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\9e02fc2e53bfc2a6508567d2e6d31b17\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\b56b7f1a76ec10cae471e258a8ba96f0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\b56b7f1a76ec10cae471e258a8ba96f0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\b93b2d2952abbec364b2c2acfef3b4a3\AndroidManifest.xml:20:5-44
@@ -393,12 +402,8 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lazar\.gradle\caches\transfo
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ed786e05980f5eaddd0437af4b06b0a9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\19bff01ef3e4ae61b11f12503aa8c44c\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\19bff01ef3e4ae61b11f12503aa8c44c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\bbc2a7425eeedb480767d910dbb56f93\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\5b046263e87adb84d19ff761676b7f76\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\5b046263e87adb84d19ff761676b7f76\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\cc098c8975b6207617610566f50118c3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\cc098c8975b6207617610566f50118c3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3e6d785f76fc7e2e82c36596087bae93\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3e6d785f76fc7e2e82c36596087bae93\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\a0879663a10016f750d728be06c723f9\AndroidManifest.xml:20:5-22:41
@@ -407,8 +412,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lazar\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\282a89390e85640a6fc617569dc6f34b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\088d8922d74e36ef264b36f44d33d576\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\088d8922d74e36ef264b36f44d33d576\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc7f660d9648e6997ff0c8686d7b034a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c493e3f0bc27a382f930510913297049\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\c493e3f0bc27a382f930510913297049\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lazar\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\24a53815b8e434ff8424695e347b9dce\AndroidManifest.xml:20:5-44
