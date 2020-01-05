@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { compose, createStore, applyMiddleware } from 'redux';
 import {
     createReduxContainer,
-  createReactNavigationReduxMiddleware,
+    createReactNavigationReduxMiddleware,
 } from 'react-navigation-redux-helpers';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
