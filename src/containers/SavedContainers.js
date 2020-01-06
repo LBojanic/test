@@ -13,11 +13,12 @@ export default class SavedContainer extends Component {
         tabBarIcon: ({ tintColor }) => (
             <Icon
                 name="ios-heart"
-                size={25}
+                size={30}
                 color={tintColor}
             />
         ),
     };
+    
     render() {
         return (
             <View style={styles.wrapper}>

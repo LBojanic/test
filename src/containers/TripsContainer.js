@@ -13,7 +13,7 @@ export default class TripsContainer extends Component {
         tabBarIcon: ({ tintColor }) => (
             <Icon
                 name="ios-add-circle"
-                size={25}
+                size={30}
                 color={tintColor}
             />
         ),

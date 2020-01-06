@@ -7,20 +7,19 @@ import TripsContainer from '../containers/TripsContainer';
 import colors from '../styles/colors';
 
 const LoggedInTabNavigator = createBottomTabNavigator({
-    ExploreContainer: { screen: ExploreContainer },
+    ExploreContainer: { screen: ExploreContainer},
     SavedContainer: { screen: SavedContainer },
     TripsContainer: { screen: TripsContainer },
     InboxContainer: { screen: InboxContainer },
     ProfileContainer: {screen: ProfileContainer },
 }, {
     tabBarOptions: {
-        labelStyle: {
-            fontWeight: '600',
-            marginBottom: 5,
-        },
+        showLabel: false,
         activeTintColor: colors.pink,
     },
 
 });
-
+LoggedInTabNavigator.navigationOptions = {
+    header: null,
+}
 export default LoggedInTabNavigator;

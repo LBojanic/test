@@ -11,12 +11,13 @@ export default class ProfileContainer extends Component {
         tabBarLabel: 'PROFILE',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-contact"
-                size={25}
+                name="ios-person"
+                size={30}
                 color={tintColor}
             />
         ),
     };
+    
     render() {
         return (
             <View style={styles.wrapper}>

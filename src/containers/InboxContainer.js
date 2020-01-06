@@ -12,11 +12,12 @@ export default class InboxContainer extends Component {
         tabBarIcon: ({ tintColor }) => (
             <Icon
                 name="ios-archive"
-                size={25}
+                size={30}
                 color={tintColor}
             />
         ),
     };
+    
     render() {
         return (
             <View style={styles.wrapper}>

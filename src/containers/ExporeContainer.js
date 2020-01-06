@@ -5,15 +5,21 @@ import {
     StyleSheet,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import SearchBar from '../components/SearchBar';
+import Categories from '../components/explore/Categories';
+import colors from '../styles/colors';
+import categoriesList from '../data/categories';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 export default class ExploreContainer extends Component {
+
     static navigationOptions = { 
         tabBarLabel: 'EXPLORE',
         tabBarIcon: ({ tintColor }) => (
             <Icon
                 name="ios-search"
-                size={25}
+                size={30}
                 color={tintColor}
             />
         ),
@@ -22,7 +28,16 @@ export default class ExploreContainer extends Component {
     render() {
         return (
             <View style={styles.wrapper}>
-                <Text>Explore Container</Text>
+                <SearchBar />
+                <ScrollView
+                style={styles.scrollview}
+                    contentContainerStyle={styles.scrollViewContent}
+                >
+                    <Text style={styles.heading}>Explore Vozi</Text>
+                    <View style={styles.categories}>
+                        <Categories categories={categoriesList}/>
+                    </View>
+                </ScrollView>
             </View>
         );
     }
@@ -30,7 +45,23 @@ export default class ExploreContainer extends Component {
 
 const styles = StyleSheet.create({
     wrapper: {
-        display: 'flex',
-        padding: 50,
+        flex: 1,
+        backgroundColor: colors.white,
+    },
+    scrollview: {
+        paddingTop: 100,
+    },
+    scrollViewContent: {
+        paddingBottom: 80,
+    },
+    categories: {
+        marginBottom: 40,
+    },
+    heading: {
+        fontSize: 22,
+        fontWeight: '600',
+        paddingLeft: 20,
+        paddingBottom: 20,
+        color: colors.gray04,
     },
 });
