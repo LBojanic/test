@@ -1,4 +1,4 @@
-#Tue Jan 07 18:24:07 CET 2020
+#Wed Jan 08 15:40:25 CET 2020
 base.0=C\:\\Users\\Lazar\\Desktop\\CarApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex

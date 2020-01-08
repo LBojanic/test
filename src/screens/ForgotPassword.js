@@ -11,6 +11,9 @@ import InputField from '../components/form/InputField';
 import Notification from '../components/Notification';
 import NextArrowButton from '../components/buttons/NextArrowButton';
 import Loader from '../components/Loader';
+import transparentHeaderStyle from '../styles/navigation';
+import NavBarButton from '../components/buttons/NavBarButton';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class ForgotPassword extends Component { 
     constructor(props) {
@@ -25,6 +28,18 @@ export default class ForgotPassword extends Component {
         this.goToNextStep = this.goToNextStep.bind(this);
         this.handleCloseNotification = this.handleCloseNotification.bind(this);
     }
+    static navigationOptions = ({ navigation }) => ({
+        headerLeft: <NavBarButton 
+        handleButtonPress={() => navigation.goBack()} 
+            location="left"
+            icon={<Icon name="angle-left" color={colors.white} size={30}/>}
+        />,
+        headerStyle: transparentHeaderStyle,
+        headerTransparent: true,
+        headerTintColor: colors.white,    
+    });
+
+
     handleEmailChange(email) {
         const emailCheckRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         this.setState({ emailAddress: email});

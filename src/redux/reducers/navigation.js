@@ -2,8 +2,8 @@ import { StatusBar } from 'react-native';
 import createReducer from '../helpers/createReducer';
 import * as types from '../actions/types';
 import AppRouteConfigs from '../../navigators/AppRouteConfigs';
-
-const firstAction = AppRouteConfigs.router.getActionForPathAndParams('LoggedIn');
+import colors from '../../styles/colors';
+const firstAction = AppRouteConfigs.router.getActionForPathAndParams('LoggedOut');
 const initialNavState = AppRouteConfigs.router.getStateForAction(firstAction);
 
 const loggedInStatus = createReducer({}, {
@@ -14,6 +14,12 @@ const loggedInStatus = createReducer({}, {
 
 const nav = (state = initialNavState, action) => {
   const nextState = AppRouteConfigs.router.getStateForAction(action, state);
+  console.log(action.routeName);
+
+  if(action.routeName === 'TurnOnNotifications' || action.routeName === 'LoggedIn') {
+    StatusBar.setBarStyle('dark-content', true);
+    StatusBar.setBackgroundColor(colors.white);
+  }
   return nextState || state;
 };
 

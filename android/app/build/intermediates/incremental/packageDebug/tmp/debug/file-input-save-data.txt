@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 07 18:24:09 CET 2020
+#Wed Jan 08 15:40:26 CET 2020
 60.set=NATIVE_RESOURCE
 52.set=NATIVE_RESOURCE
 53.base=C\:\\Users\\Lazar\\Desktop\\CarApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
