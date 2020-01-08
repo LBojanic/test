@@ -3,8 +3,11 @@ import {
     View, 
     Text,
     StyleSheet,
+    ScrollView,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import NoResults from '../components/saved/NoResults';
+import colors from '../styles/colors';
 
 
 export default class SavedContainer extends Component {
@@ -22,7 +25,7 @@ export default class SavedContainer extends Component {
     render() {
         return (
             <View style={styles.wrapper}>
-                <Text>Saved Container</Text>
+                <NoResults handleButtonPress={() => this.props.navigation.navigate('Explore')}/>
             </View>
         );
     }
@@ -31,6 +34,7 @@ export default class SavedContainer extends Component {
 const styles = StyleSheet.create({
     wrapper: {
         display: 'flex',
-        padding: 50,
-    }
+        backgroundColor: colors.white,
+    },
+
 });

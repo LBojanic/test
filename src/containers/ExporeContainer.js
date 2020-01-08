@@ -13,20 +13,15 @@ import { ScrollView } from 'react-native-gesture-handler';
 import Listings from '../components/explore/Listings';
 import listings from '../data/listings';
 
-
 export default class ExploreContainer extends Component {
 
-    static navigationOptions = { 
-        tabBarLabel: 'EXPLORE',
-        tabBarIcon: ({ tintColor }) => (
-            <Icon
-                name="search"
-                size={30}
-                color={tintColor}
-            />
-        ),
-    };
-
+    constructor(props) {
+        super(props);
+        this.handleAddToFav = this.handleAddToFav.bind(this);
+    }
+    handleAddToFav() {
+        this.props.navigation.navigate('CreateList');
+    }
     renderListings() {
         return listings.map((listing, index) => (
           <View

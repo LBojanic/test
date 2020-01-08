@@ -7,6 +7,7 @@ import LoggedIn from '../screens/LoggedIn';
 import ForgotPassword from '../screens/ForgotPassword';
 import LoggedInTabNavigator from './LoggedInTabNavigator';
 import TurnOnNotifications from '../screens/TurnOnNotifications';
+import CreateList from '../screens/CreateList';
 
 const AppRouteConfigs = createStackNavigator({    
     LoggedOut: { screen: LoggedOut,
@@ -34,6 +35,7 @@ const AppRouteConfigs = createStackNavigator({
             title: null,
         }
     },
+
 });
 
 export default AppRouteConfigs;   
