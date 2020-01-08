@@ -4,14 +4,14 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class ProfileContainer extends Component {
     static navigationOptions = { 
         tabBarLabel: 'PROFILE',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-person"
+                name="user-o"
                 size={30}
                 color={tintColor}
             />

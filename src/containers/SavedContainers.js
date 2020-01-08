@@ -4,7 +4,7 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 export default class SavedContainer extends Component {
@@ -12,7 +12,7 @@ export default class SavedContainer extends Component {
         tabBarLabel: 'SAVED',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-heart"
+                name="heart-o"
                 size={30}
                 color={tintColor}
             />

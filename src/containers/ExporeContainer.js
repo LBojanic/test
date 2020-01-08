@@ -4,12 +4,14 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import SearchBar from '../components/SearchBar';
 import Categories from '../components/explore/Categories';
 import colors from '../styles/colors';
 import categoriesList from '../data/categories';
 import { ScrollView } from 'react-native-gesture-handler';
+import Listings from '../components/explore/Listings';
+import listings from '../data/listings';
 
 
 export default class ExploreContainer extends Component {
@@ -18,12 +20,29 @@ export default class ExploreContainer extends Component {
         tabBarLabel: 'EXPLORE',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-search"
+                name="search"
                 size={30}
                 color={tintColor}
             />
         ),
     };
+
+    renderListings() {
+        return listings.map((listing, index) => (
+          <View
+            key={`listing-${index}`}
+          >
+            <Listings
+              key={`listing-item-${index}`}
+              title={listing.title}
+              boldTitle={listing.boldTitle}
+              listings={listing.listings}
+              showAddToFav={listing.showAddToFav}
+              handleAddToFav={this.handleAddToFav}
+            />
+          </View>
+        ));
+      }
 
     render() {
         return (
@@ -33,10 +52,11 @@ export default class ExploreContainer extends Component {
                 style={styles.scrollview}
                     contentContainerStyle={styles.scrollViewContent}
                 >
-                    <Text style={styles.heading}>Explore Vozi</Text>
+                    <Text style={styles.heading}>Categories</Text>
                     <View style={styles.categories}>
                         <Categories categories={categoriesList}/>
                     </View>
+                    {this.renderListings()}
                 </ScrollView>
             </View>
         );

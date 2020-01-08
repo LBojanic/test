@@ -55,7 +55,7 @@ export default class TurnOnNotifications extends Component {
             </View>
         );
     }
-}
+} 
 
 const styles = StyleSheet.create({
     wrapper: {

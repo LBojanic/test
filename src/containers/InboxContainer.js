@@ -4,14 +4,14 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class InboxContainer extends Component {
     static navigationOptions = { 
         tabBarLabel: 'INBOX',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-archive"
+                name="inbox"
                 size={30}
                 color={tintColor}
             />

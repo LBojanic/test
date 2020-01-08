@@ -3,7 +3,7 @@ import createReducer from '../helpers/createReducer';
 import * as types from '../actions/types';
 import AppRouteConfigs from '../../navigators/AppRouteConfigs';
 
-const firstAction = AppRouteConfigs.router.getActionForPathAndParams('LoggedOut');
+const firstAction = AppRouteConfigs.router.getActionForPathAndParams('LoggedIn');
 const initialNavState = AppRouteConfigs.router.getStateForAction(firstAction);
 
 const loggedInStatus = createReducer({}, {

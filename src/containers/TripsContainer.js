@@ -4,7 +4,7 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import Icon from  'react-native-vector-icons/Ionicons';
+import Icon from  'react-native-vector-icons/FontAwesome';
 
 
 export default class TripsContainer extends Component {
@@ -12,7 +12,7 @@ export default class TripsContainer extends Component {
         tabBarLabel: 'TRIPS',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="ios-add-circle"
+                name="plus-square-o"
                 size={30}
                 color={tintColor}
             />
