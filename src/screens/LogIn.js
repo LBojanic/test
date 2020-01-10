@@ -131,6 +131,7 @@ class LogIn extends Component {
                             customStyle={{marginBottom: 30}}
                             onChangeText={this.handleEmailChange}
                             showCheckmark={validEmail}
+                        
                         />
                         <InputField 
                             labelText = "PASSWORD"

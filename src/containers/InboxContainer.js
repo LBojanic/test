@@ -11,7 +11,7 @@ export default class InboxContainer extends Component {
         tabBarLabel: 'INBOX',
         tabBarIcon: ({ tintColor }) => (
             <Icon
-                name="inbox"
+                name="comment-o"
                 size={30}
                 color={tintColor}
             />

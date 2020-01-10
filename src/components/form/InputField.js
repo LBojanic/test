@@ -101,7 +101,7 @@ export default class InputField extends Component {
                     autoCapitalize={autoCapitalize}
                     autoCorrect={false}
                     underlineColorAndroid="transparent"
-                    value={value}
+                    defaultValue={value}
                     placeholder={placeholder}
                 />
             </View>

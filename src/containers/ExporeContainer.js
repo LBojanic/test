@@ -17,11 +17,36 @@ export default class ExploreContainer extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            favouriteListings: [],
+        };
+        this.onCreateListClose = this.onCreateListClose.bind(this);
+        this.renderListings = this.renderListings.bind(this);
         this.handleAddToFav = this.handleAddToFav.bind(this);
     }
-    handleAddToFav() {
-        this.props.navigation.navigate('CreateList');
+    handleAddToFav(listing) {
+        let { favouriteListings } = this.state;
+
+        const index = favouriteListings.indexOf(listing.id);
+        if (index > -1) {
+            favouriteListings = favouriteListings.filter(item => item !== listing.id)
+            this.setState({favouriteListings});
+        } else {
+            this.props.navigation.navigate('CreateList', {listing, onCreateListClose: this.onCreateListClose});
+        }
+
     }
+
+    onCreateListClose(listingId, listCreated) {
+        let { favouriteListings } = this.state;
+        if (listCreated) {
+            favouriteListings.push(listingId);
+        } else {
+            favouriteListings = favouriteListings.filter(item => item != listingId);
+        }
+        this.setState({ favouriteListings });
+    }
+
     renderListings() {
         return listings.map((listing, index) => (
           <View
@@ -34,6 +59,7 @@ export default class ExploreContainer extends Component {
               listings={listing.listings}
               showAddToFav={listing.showAddToFav}
               handleAddToFav={this.handleAddToFav}
+              favouriteListings = {this.state.favouriteListings}
             />
           </View>
         ));
